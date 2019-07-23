@@ -97,15 +97,15 @@ How to remove individual eyelashes
  # 接入
 如果要把搜索集成到浏览器或者其他网站，通过以下接口可以实现搜索 例子:
 
-utf8编码的页面URL接口： http://isoyu.com/?q={$q} 
+utf8编码的页面URL接口： https://isoyu.com/?q={$q} 
 
-gb2312编码的页面URL接口： http://isoyu.com/?q={$q}&cr=gb2312 
+gb2312编码的页面URL接口： https://isoyu.com/?q={$q}&cr=gb2312 
 
-gbk编码的页面URL接口： http://isoyu.com/?q={$q}&cr=gbk 
+gbk编码的页面URL接口： https://isoyu.com/?q={$q}&cr=gbk 
 
 接口URL中的{$q}代码搜索词
 
-详细参数:http://isoyu.com/?q={$q}&si=1&l=zh&s=1&a=1&i=1
+详细参数:https://isoyu.com/?q={$q}&si=1&l=zh&s=1&a=1&i=1
 
 
 # 统计
