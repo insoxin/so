@@ -94,7 +94,18 @@ How to remove individual eyelashes
 
 结束,这并不是说百度不好,上述也不止单例,只是不适合不放心我把他推荐给父母老人孩子使用,万一误点了,我教父母电脑时都是让他们首选绿色标标
 
-当然v2ex用户是高智商人群并拥有自判能力,我还是更推荐使用Google
+ # 接入
+如果要把搜索集成到浏览器或者其他网站，通过以下接口可以实现搜索 例子:
+
+utf8编码的页面URL接口： http://isoyu.com/?q={$q} 
+
+gb2312编码的页面URL接口： http://isoyu.com/?q={$q}&cr=gb2312 
+
+gbk编码的页面URL接口： http://isoyu.com/?q={$q}&cr=gbk 
+
+接口URL中的{$q}代码搜索词
+
+详细参数:http://isoyu.com/?q={$q}&si=1&l=zh&s=1&a=1&i=1
 
 
 # 统计
